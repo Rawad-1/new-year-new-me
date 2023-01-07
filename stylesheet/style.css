@@ -1,0 +1,164 @@
+.heading {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.heading .title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: white;
+}
+
+.heading .description {
+    text-align: right;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: aliceblue;
+}
+
+.heading {
+    padding: 200px;
+}
+
+.button {
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 30px;
+    background-color: white;
+    color:
+        #005FAC;
+    margin-left: 1300px;
+}
+
+.failures {
+    display: flex;
+    gap: 100px;
+    margin: 124px;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 200px;
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: "\2713";
+    color: lightgreen;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.plans {
+    display: flex;
+    gap: 150px;
+    margin: 0% 350px;
+}
+
+.plans-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.plan-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.call {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: 400px 0px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    padding-right: 550px;
+    padding-left: 500px;
+}
+
+.call-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: rgb(0, 174, 255);
+}
+
+.call-button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+    padding: 20px 35px;
+}
+
+.contact {
+    display: flex;
+    background-color: black;
+    gap: 50px;
+}
+.contact-info{
+    padding-left: 230px;
+}
+.contact-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: white;
+}
+
+.contact-description {
+    font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+    color: white;
+}
+.input-title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    color: white;
+}
+.Subscribe-button{
+    padding: 20px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+.email{
+    width: 100%;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+}
